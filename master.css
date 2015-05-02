@@ -63,3 +63,10 @@
 #save:hover{
 	background-color: #818181;
 }
+#clear{
+	float: right;
+	margin-right: 20px;
+	height: 30px;
+	padding: 8px;
+	background-color: white;
+}

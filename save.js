@@ -11,7 +11,7 @@ function saveImage(){
 		if(request.readyState == 4 && request.status == 200){
 			//do our stuff
 			var response = request.responseText;
-			document.location(response,'_blank','location=0, menubar=0');
+			window.open('download.php?file='+response,'_blank','location=0, menubar=0');
 		}
 	}
 

@@ -33,3 +33,12 @@ canvas.addEventListener('mousedown', engage);
 canvas.addEventListener('mousemove', putPoint);
 canvas.addEventListener('mouseup', disengage); 
 
+function clearCanvas(canvas){
+	canvas.width = canvas.width;	
+}
+
+function save2(){
+	var imageData = context.getImageData(0,0,canvas.width,canvas.height);
+	var imgsave = context.putImageData(imageData,0,0);
+	window.open(imgsave,'_blank','location=0, menubar=0');
+}
