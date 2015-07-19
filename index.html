@@ -1,37 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Odontograma</title>
-  <link rel="stylesheet" href="master.css">
+	<title>Blog para el curso de Arte en la red</title>
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/MainCss.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 </head>
-<body style="margin:0">
-  <div id="draw">
-    <div id="toolbar">
-      <div id="rad">
-        Radius <span id="radval">10</span>
-        <div id ="decrad" class="radcontrol">-</div>
-        <div id ="incrad" class="radcontrol">+</div>
-      </div>
-      <div id="colors">
-        <div class="swatch active" style="background-color: red"></div>
-        <div class="swatch" style="background-color: blue"></div>
-      </div>
-      <div id="save">
-        Sabe
-      </div>
-      <input id="clear" type="button" value="save2" onclick="save2();">
-      <input id="clear" type="button" value="putImg" onclick="putImg();">
-      <input id="clear" type="button" value="clear" onclick="clearCanvas(canvas);">
-    </div>
-    <div>
-      <canvas id="canvas" style="display: block;">
-        Sorry, your browser is rubbish.
-      </canvas>
-    </div>
-  </div>
-  <script src="main.js"></script>
-  <script src="radius.js"></script>
-  <script src="colors.js"></script>
-  <script src="save.js"></script>
+<body>
+	<div id="contenido">
+		<header>
+			<div>
+				<h1>David Hernandez</h1>
+				<span><img id="retrato" src="img/David.png"></span>
+			</div>
+			<nav>
+				<ul class="cbp-vimenu">
+					<li><a href="index.html" class="icon-logo">Logo</a></li>
+					<li><a href="Redes.html" class="icon-Redes">Redes</a></li>
+					<li><a href="Games.html" class="icon-Games">Games</a></li>
+					<li><a href="Virtual.html" class="icon-Virtual">Virtual</a></li>
+					<li><a href="GMap.html" class="icon-GMaps">GMaps</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<div class="Articulo">
+				<p>Buenas, mi nombre es David Hernandez, tengo 22 años (1992) y estudio la carrera de ingeniería industrial en la universidad de ciencias y tecnología UTEC. Desde niño me han gustado las computadoras y los videojuegos; esto se fue consolidando con el tiempo, ya que la tecnología ha ido avanzando a pasos agigantados haciendo que la calidad de los juegos y las computadoras mejora considerablemente. A continuación podremos ver algunos ejemplos de los videojuegos y tecnologías que he ido aprendiendo en orden cronológico.</p>
+				<!-- Poner enlaces de los juegos -->
+				 <div class="contvideo">
+				 	<p><strong>Bomberman</strong></p>
+				 	<img class="imgDavid" src="img/bomberman.png">
+				 </div>
+				 <div class="contvideo">
+				 	<p><strong>Super Smash Bors 64</strong></p>
+				 	<img class="imgDavid" src="img/supersmash.png">
+				 </div>
+				 <div class="contvideo">
+				 	<p><strong>HTML5 y CSS</strong></p>
+				 	<img class="imgDavid" src="img/htmlcss.png">
+				 </div>
+				 <div class="contvideo">
+				 	<p><strong>World of Warcraft</strong></p>
+				 	<img class="imgDavid" src="img/wow.jpg">
+				 </div>
+				 <div class="contvideo">
+				 	<p><strong>Arduino</strong></p>
+				 	<img class="imgDavid" src="img/arduino.png">
+				 </div>
+				 <div class="contvideo">
+				 	<p><strong>JavaScript</strong></p>
+				 	<img class="imgDavid" src="img/javascript.png">
+				 </div>
+				 <div class="contvideo">
+				 	<p><strong>Dota 2</strong></p>
+				 	<img class="imgDavid" src="img/dota2.jpg">
+				 </div>
+				 <div class="contvideo">
+				 	<p><strong>Diablo 3</strong></p>
+				 	<img class="imgDavid" src="img/diablo.jpg">
+				 </div>
+				 <div class="contvideo">
+				 	<p><strong>WebGl</strong></p>
+				 	<img class="imgDavid" src="img/webgl.png">
+				 </div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			</div>
+		</section>
+	</div>
+	<footer><p>- <strong>Gracias por visitar mi Blog!</strong> -</p></footer>	
+
 </body>
 </html>
